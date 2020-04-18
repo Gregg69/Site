@@ -22,10 +22,14 @@ body {
     padding: 32px 0 32px;
 }
 
-.page-header .container,
-.page-footer .container {
+.page-header .container {
     max-width: 1408px;
     text-align: right;
+}
+
+.page-footer .container {
+    max-width: 1408px;
+    text-align: center;
 }
 
 .page-header a {
@@ -48,19 +52,24 @@ body {
 }
 
 .hero-image {
-    margin-bottom: 160px;
+    margin-bottom: 150px;
 }
 
 .hero-image .container {
     max-width: 1408px;
+    height: 300px;
     text-align: center;
+    background-image: url(img/Iam.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    margin: 120px;
 }
 
 .heading {
     margin: 0 0 16px;
     font-family: "Calibri", serif;
     font-size: 88px;
-    line-height: 96px;
+    line-height: 100px;
     font-weight: 400;
 }
 
@@ -177,7 +186,7 @@ body {
 }
 
 .page-footer a {
-    margin-left: 56px;
+    margin-left: 10px;
     color: inherit;
     text-decoration: none;
     background-repeat: no-repeat;
